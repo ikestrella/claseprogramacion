@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="068a6a13-26d8-4fcb-98bd-8828fff8568d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clase3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Area_circunferencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ecuacioncuadratica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Valorhipotenusa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +55,7 @@
       <workItem from="1666731064954" duration="3853000" />
       <workItem from="1666734968413" duration="68000" />
       <workItem from="1666987849893" duration="5965000" />
-      <workItem from="1667147196843" duration="1501000" />
+      <workItem from="1667147196843" duration="2101000" />
     </task>
     <servers />
   </component>
