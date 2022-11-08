@@ -24,6 +24,7 @@ public class SwitchArea {
                 double lado= sc.nextDouble();
                 double areacuadrado =(lado*lado);
                 System.out.println("El area del cuadrado es: "+ areacuadrado);
+                break;
             case 3:
                 System.out.println("Encontrar el area de la circunferencia");
                 System.out.println("Ingrese el radio de la circunferencia");
