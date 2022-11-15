@@ -13,7 +13,7 @@ public class Libreriamath {
         double exp = 2;
         double potencia = Math.pow(numero, exp);
         System.out.println("Resultado del numero elevado al cuadrado es: " + potencia);
-
+        String nombre = "Jose";
         int a=1;
         int b=1;
         double c=1;
