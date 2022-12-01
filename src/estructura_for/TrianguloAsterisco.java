@@ -7,10 +7,10 @@ public class TrianguloAsterisco {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el numero de filas");
         int filas = sc.nextInt();
-        //System.out.println("Ingrese el numero de columnas");
-        //int columna= sc.nextInt();
+
         for (int contador = 1; contador <= filas; contador++) {
             String fila_asteriscos = "";
+
             for (int conta = 1; conta <= contador; conta++) {
                 fila_asteriscos = fila_asteriscos + "*";
             }
