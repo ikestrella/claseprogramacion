@@ -1,4 +1,4 @@
-package Ejercicios_codificados;
+package Bimestre2.Semana1.Ejercicios_codificados;
 
 import java.util.Scanner;
 
