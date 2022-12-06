@@ -2,7 +2,7 @@ package EjerciciosBimestrales;
 import java.util.Calendar;
 import java.util.Scanner;
 
-public class Ejerciciofinal1 {
+public class EjercicioFinal1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese su fecha de nacimiento (en numeros)");
@@ -20,7 +20,7 @@ public class Ejerciciofinal1 {
             if (mes >= 01 && mes <= 12 && mes1<=12 && mes1>=1) {
                 if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) {
                     if (dia >= 01 && dia <= 31 && dia1<=31 && dia1>=01) {
-                        int dias = dia1 - dia;int meses = mes1 - mes;int anos = ano1 - ano;
+                        int dias = 31 - dia;int meses = mes1 - mes;int anos = ano1 - ano;
                         if (dias<=0){
                             dias= (dias)*(-1);
                         }
@@ -31,7 +31,7 @@ public class Ejerciciofinal1 {
                     }
                 } else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
                     if (dia >= 01 && dia <= 30 && dia1<=31 && dia1>=01) {
-                        int dias = dia1 - dia;int meses = mes1 - mes;int anos = ano1 - ano;
+                        int dias = 30 - dia;int meses = mes1 - mes;int anos = ano1 - ano;
                         if (dias<=0){
                             dias= (dias)*(-1);
                         }
@@ -42,7 +42,7 @@ public class Ejerciciofinal1 {
                     }
                 } else if (mes == 2 && bis == 0) {
                     if (dia >= 01 && dia <= 28 && dia1<=31 && dia1>=01) {
-                        int dias = dia1 - dia;int meses = mes1 - mes;int anos = ano1 - ano;
+                        int dias = 28 - dia;int meses = mes1 - mes;int anos = ano1 - ano;
                         if (dias<=0){
                             dias= (dias)*(-1);
                         }
@@ -53,7 +53,7 @@ public class Ejerciciofinal1 {
                     }
                 } else if (mes == 2 && bis == 1) {
                     if (dia >= 01 && dia <= 29 && dia1<=31 && dia1>=01) {
-                        int dias = dia1 - dia;int meses = mes1 - mes;int anos = ano1 - ano;
+                        int dias = 29 - dia;int meses = mes1 - mes;int anos = ano1 - ano;
                         if (dias<=0){
                             dias= (dias)*(-1);
                         }
