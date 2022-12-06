@@ -13,7 +13,7 @@ public class EjercicioFinal2 {
             System.out.println(c);
             c=a+b;
             a=b;
-            b=c;
+            b=c ;
         }
         for (int i = 1; i < serie; i++) {
             System.out.println(suma);

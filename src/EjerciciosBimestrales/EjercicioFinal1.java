@@ -63,10 +63,10 @@ public class EjercicioFinal1 {
                         System.out.println("Tienes " + anos + " con " + meses + " meses " + " y " + dias + " dias " + hora + "horas");
                     }
                 } else {
-                    System.out.println("Mes invalido");
+                    System.out.println("Mes invalido ");
                 }
             } else {
-                System.out.println("Año invalido");
+                System.out.println("Año invalido ");
             }
         }
     }
