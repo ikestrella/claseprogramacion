@@ -1,8 +1,8 @@
-package Borradores;
+package TrabajosSegundoBimestre;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int cedula []=new int[10];
@@ -25,7 +25,7 @@ public class Ejercicio1 {
         }
         int decena = 0;
         while (acumulador<99 || acumulador<1000){
-           decena=acumulador/10;
+            decena=acumulador/10;
             break;
         }
         decena=(decena*10)+10;
