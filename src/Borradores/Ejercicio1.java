@@ -26,9 +26,11 @@ public class Ejercicio1 {
         int decena = 0;
         while (acumulador<99 || acumulador<1000){
            decena=acumulador/10;
-            break;
+           break;
         }
+        System.out.println(decena);
         decena=(decena*10)+10;
+        System.out.println(decena);
         int resultadoresta= 0;
         resultadoresta=decena-acumulador;
         if (resultadoresta==cedula[9]){
