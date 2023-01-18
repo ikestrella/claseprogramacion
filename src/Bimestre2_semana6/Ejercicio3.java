@@ -1,18 +1,24 @@
 package Bimestre2_semana6;
+import Borradores.Borrador4;
+
 import java.util.Scanner;
 
 public class Ejercicio3 {
-    int cedula [][]=new int[5][10];
-    public void ingresar() {
-        Ejercicio3 asdd= new Ejercicio3();
+    public void ingresar(){
+        int ced [][]=new int[5][10];
         Scanner sc = new Scanner(System.in);
-        for (int indice = 0; indice < cedula.length; indice++) {
+        for (int indice = 0; indice < ced.length; indice++) {
+            int indice2=0;
             System.out.println("Ingrese el numero de cedula");
-            for (int indice2 = 0; indice2 < cedula[0].length; indice2++) {
-                int ced = sc.nextInt();
-                cedula[indice][indice2] = ced;
+            for (indice2 = 0; indice2 < ced[0].length; indice2++) {
+                int numc = sc.nextInt();
+                ced[indice][indice2] = numc;
             }
         }
+        Ejercicio3 asd=new Ejercicio3();
+        asd.recibir(ced);
+    }
+    public void recibir(int[][] cedula){
         for (int indice = 0; indice < cedula.length; indice++) {
             for (int indice2 = 0; indice2 < cedula[0].length-1; indice2=indice2+2) {
                 cedula[indice][indice2]=cedula[indice][indice2]*2;
@@ -56,7 +62,7 @@ public class Ejercicio3 {
         }
     }
     public static void main(String[] args) {
-        Ejercicio3 asd= new Ejercicio3();
-        asd.ingresar();
+        Ejercicio3 scs= new Ejercicio3();
+        scs.ingresar();
     }
 }
