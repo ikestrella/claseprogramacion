@@ -1,7 +1,6 @@
 package Bimestre2_semana6;
 
 import java.util.Scanner;
-
 public class Ejercicio2 {
     double hipotenusa;
     double s_ab;

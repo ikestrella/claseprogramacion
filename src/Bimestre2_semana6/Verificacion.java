@@ -25,7 +25,6 @@ public class Verificacion {
             return false;
         }
     }
-
     public static void main(String[] args) {
         Verificacion mivariable = new Verificacion();
         if (mivariable.verificar_primo(5)==true){

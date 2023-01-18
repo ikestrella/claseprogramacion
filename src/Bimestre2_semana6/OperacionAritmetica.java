@@ -1,5 +1,4 @@
 package Bimestre2_semana6;
-
 import java.util.Scanner;
 /**
  * Programa para crear metodos para realizar operaciones aritmeticas

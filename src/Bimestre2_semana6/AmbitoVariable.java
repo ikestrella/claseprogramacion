@@ -2,7 +2,6 @@ package Bimestre2_semana6;
 
 public class AmbitoVariable {
     static int numero=10; // creacion de variable global
-
     //metodos sobrecargados
     public static void cambiar_valor(){
         numero = numero + 15;
