@@ -23,6 +23,7 @@ public class Ejercicio2 {
         for (int indice = 0; indice < 9; indice++) {
             acumulador = cedula[indice] + acumulador;
         }
+        System.out.println(acumulador);
         int decena = 0;
         while (acumulador<99 || acumulador<1000){
             decena=acumulador/10;
