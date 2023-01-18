@@ -1,4 +1,5 @@
-package Bimestre2_semana5;
+package Bimestre2_Semana5;
+
 
 import java.util.Scanner;
 
