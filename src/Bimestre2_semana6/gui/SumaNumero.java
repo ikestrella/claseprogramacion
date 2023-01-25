@@ -14,6 +14,7 @@ public class SumaNumero {
     private JButton btn_dividir;
     private JButton btn_mult;
 
+    boolean error= true;
     public SumaNumero() {
         btn_suma.addActionListener(new ActionListener() {
             @Override
@@ -32,16 +33,18 @@ public class SumaNumero {
         btn_dividir.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                double n1 = Double.parseDouble(txt_n1.getText());
-                double n2 = Double.parseDouble(txt_n2.getText());
-                if(n1>n2){
-                    double div = n1 / n2;
+                double n1=0;
+                double n2=0;
+                double div=0;
+                try{
+                    n1 = Double.parseDouble(txt_n1.getText());//a
+                    n2 = Double.parseDouble(txt_n2.getText());//10
+                    div = n1 / n2;
                     lbl_resultado.setText(String.valueOf(div));
-                }else {
+                }catch (Exception err){
                     String mensaje= "Invalido";
                     lbl_resultado.setText(String.valueOf(mensaje));
                 }
-
             }
         });
         btn_mult.addActionListener(new ActionListener() {
